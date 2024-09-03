@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Roboto&display=swap");
+
+.text1 {
+  font-family: verdana, arial;
+}
+
+.text2 {
+  font-family: "lucida console", "courier new";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.text3 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shad {
+  text-shadow: 3px 3px 5px tomato, -3px -3px 5px lightblue;
+}
+
+.box1 {
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px 3px 5px;
+}
+
+body {
+  margin: 0px;
+}
+
+.box2 {
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  background-color: tomato;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.box3 {
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  background-color: lightblue;
+  margin-left: auto;
+}
+
+.box4 {
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  background-color: lightgreen;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#img1 {
+  height: 100px;
+  float: left;
+}
+
+#img2 {
+  float: right;
+  height: 100px;
+}
+
+.container1 {
+  display: flow-root;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border: 3px solid;
+}
+
+.box5 {
+  margin-top: 50px;
+  border: 2px solid;
+  height: 75px;
+  overflow: auto;
+  /*clip, hidden, scroll*/
+}
+
+.box6 {
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+  display: block;
+  visibility: hidden;
+}
+.span1 {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  display: inline;
+  /*inline, inline-block, block, none*/
+}
+
+.conteiner2 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.pagination {
+  text-align: center;
+}
+.pagination a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+}
+.pagination a.active {
+  background-color: aquamarine;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: lightgray;
+  border-radius: 5px;
+}

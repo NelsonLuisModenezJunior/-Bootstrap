@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="index.php" method="POST">
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        id="nome"
+        placeholder="Digite um nome!"
+        minlength="3"
+        maxlength="50"
+        required
+      />
+
+      <br />
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" minlength="3" maxlength="30" required />
+
+      <br />
+
+      <label for="email">Email:</label>
+      <input
+        type="password"
+        id="email"
+        placeholder="seuemail@gmail.com"
+        minlength="3"
+        maxlength="30"
+        required
+      />
+
+      <br />
+
+      <label for="tel">Telefone:</label>
+      <input
+        type="tel"
+        id="tel"
+        placeholder="(dd)xxxx-xxxxx"
+        pattern="[1-9]{2}-[1-9]{4}-[1-9]{5}"
+        maxlength="11"
+        required
+      />
+
+      <br />
+
+      <label for="data">Data de nascimento:</label>
+      <input type="date" id="data" />
+
+      <br />
+
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

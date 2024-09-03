@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  font-size: 12em;
+  text-align: center;
+  background-color: cadetblue;
+
+  transform: translate(100%) scale(0.7) skew(245deg, 175deg);
+  /*translate(50px, 50px); rotateZ(180deg); scale(2, 2); skew(245deg, 175deg);*/
+}
+
+#box1 {
+  background-color: cadetblue;
+}
+#box2 {
+  background-color: tomato;
+}
+#box3 {
+  background-color: cornflowerblue;
+}
